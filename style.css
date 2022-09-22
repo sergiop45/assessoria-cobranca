@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1vh 1vh;
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#titulo {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+#logo img {
+    width: 20%;
+    border-radius: 4rem;
+}
+
+#btn-menu {
+    font-size: 3em;
+}
+
+
+#slide {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#text-slide {
+    position: absolute;
+    color: #fff;
+    margin-right: 40%;
+    margin-left: 7%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#text-slide p {
+    margin-top: 1vh;
+    font-size: 1.8vh;
+    columns: #fff;
+}
+#label_slide {
+    color: rgb(82,101,143);
+}
+#slide img {
+    width: 100%;
+    height: 15em;
+    background-size: contain;
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+
+#btn-slide  {
+    margin-right: 2em;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.btn-slide {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 1.3vh;
+    cursor: pointer;
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+.btn-contato {
+    background-color: rgb(82,101,143);
+    border-radius: 1vh;
+    padding: 1vh 5vh;
+    font-size: 3vh;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto';
+    transition: 1.5s;
+}
+.btn-contato:hover {
+    color: #000;
+    padding: 1.1vh 5.1vh;
+    
+}
+
+#sobre {
+    margin-top: 2em;
+    margin-left: 2em;
+    font-family: 'Roboto';
+    text-align: center;
+}
+#sobre h1 {
+    color: rgb(82,101,143);
+}
+#sobre p {
+    margin-top: 1em;
+    font-size: 13px;
+    margin-bottom: 2em;
+}
+
+#cont-sobre {
+    margin: 4em auto;
+    text-align: center;
+}
+.item-cont-sobre h2 {
+    color: rgb(82,101,143);
+}
+.item-cont-sobre div {
+    text-align: center;
+    border: .5vh solid rgb(82,101,143);
+    border-right: none;
+    border-left: none;
+    margin: 1vh 10vh 10vh 10vh;
+}
+.item-cont-sobre div ol {
+    margin-top: 1vh;
+    font-size: 13px;
+    font-family: 'Roboto';
+}
