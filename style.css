@@ -138,3 +138,17 @@ body {
     font-size: 13px;
     font-family: 'Roboto';
 }
+
+#servicos {
+   
+    width: 100%;
+}
+.servico {
+    border: 1vh solid rgb(82,101,143);
+    border-radius: 4vh;
+    margin: 2vh auto;
+    width: 50%;
+}
+.servico h2 {
+    color: rgb(82,101,143);
+}
